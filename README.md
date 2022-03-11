@@ -1,6 +1,7 @@
 # 簡易ブラウザゲームエンジン
 
 ## QuickStart Guide 
+
 1. [node.js](https://nodejs.org/ja/) ,  [Visual Studio Code (vscode)](https://azure.microsoft.com/ja-jp/products/visual-studio-code/) をダウンロード&インストール
 2. vscodeの拡張機能`Live Server`を入れる
 3. このリポジトリをclone or ZIPでダウンロードして展開
