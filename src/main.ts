@@ -1,13 +1,4 @@
-import * as PIXI from "pixi.js";
-import { SceneManager } from "./SceneManager";
+import * as PIXI from "pixi.js"
 
-const app = new PIXI.Application({ backgroundColor: 0x1099bb });
+const app = new PIXI.Application<HTMLCanvasElement>({ width: 640, height: 360 });
 document.body.appendChild(app.view);
-
-PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
-
-const game = new SceneManager(app);
-
-app.ticker.add((delta) => {
-  game.update(delta);
-});
